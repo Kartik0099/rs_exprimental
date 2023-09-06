@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2021"
 default-run = "main"
 
+[[bin]]
+name = "oops"
+path = "src/bin/oops/main.rs"
+
 [dependencies]
 umya-spreadsheet = "1.0.1"
